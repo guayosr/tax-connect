@@ -37,8 +37,6 @@ end
 #Initializers; should go somewhere else
 Stripe.api_key = settings.api_key
 
-log = Logger.new('logs/log.txt') 
-#log.debug "Log file created"
 puts "Log file created"
 
 class User < ActiveRecord::Base
